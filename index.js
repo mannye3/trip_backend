@@ -16,7 +16,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-  origin: '*', // Allow requests from any origin
+  origin: 'https://trip-client-zeta.vercel.app', // Allow requests from any origin
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'], // Allowed HTTP methods
   credentials: true // Allow cookies and auth headers
 }));
